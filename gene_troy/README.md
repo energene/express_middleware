@@ -8,7 +8,7 @@
   * submit a link to your PR in canvas
 
 ##Description
-Create an express middleware function that parses incoming JSON, 
+Create an express middleware function that parses incoming JSON,
 on a successful parse the JSON object should be saved to `req.body`
 and the next function called. On a failed parse the middleware should
 send back the appropriate status code and a message of "invalid json".

@@ -1,5 +1,5 @@
 var gulp = require('gulp'),
-  mocha  = require('gulp-mocha'),
+  mocha = require('gulp-mocha'),
   eslint = require('gulp-eslint');
 
 gulp.task('lint', () => {

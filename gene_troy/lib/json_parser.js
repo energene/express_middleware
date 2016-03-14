@@ -7,7 +7,7 @@ module.exports = exports = function(req, res, next) {
     try {
       req.body = JSON.parse(parsedData);
       next();
-    } catch(e) {
+    } catch (e) {
       console.log(e);
       return res.status(400).json({msg: 'invalid data sent'});
     }
